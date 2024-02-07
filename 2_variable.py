@@ -50,3 +50,5 @@ taille_de_personne = 1.75
 """
 nomDeSociete = "Mercedes"
 print(nomDeSociete)
+
+print(f"La nom de ma societé est: {nomDeSociete}.")
