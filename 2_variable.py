@@ -38,17 +38,13 @@ print(prenom)
 print(Prenom)
 
 # Variables avec beaucoup de mots
-# - Camel Case
-tailleDePersonne = 1.75
-# - Pascal Case
-TailleDePersonne = 2.10
-# - Snake Case
+# - Snake Case: Nous allons utiliser cette convention
 taille_de_personne = 1.75
 
 """ Exercice: Creer une variable appele nomDeSociete et donne lui la
     la valeur 'Mercedes' et afficher le resultat.
 """
-nomDeSociete = "Mercedes"
-print(nomDeSociete)
+nom_de_societe = "Mercedes"
+print(nom_de_societe)
 
-print(f"La nom de ma societé est: {nomDeSociete}.")
+print(f"La nom de ma societé est: {nom_de_societe}.")
