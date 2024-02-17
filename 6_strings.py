@@ -7,13 +7,15 @@ print("Minteligencia")
 print('Minteligencia')
 
 # Affecter une chaîne de caractères à une variable
-name = "Ngannou"
+name = "Ngannou" # 'Ngannou
 print(name)
 
 # Chaînes multilignes en utilisants trois guillemets doubles
 # ou trois guillemets simples
-paragraph = """Bonjour ceci est une autre facon
-de travailler avec des  strings qui vont sur plusieurs lignes."""
+paragraph = """
+Bonjour ceci est une autre facon
+de travailler avec des  strings qui vont sur plusieurs lignes.
+"""
 print(paragraph)
 
 
@@ -23,8 +25,7 @@ print(paragraph)
 """
 #  [start:stop:step]
 hello_world = "Hello, world!"
-print(hello_world[2:5]) # Obtenez les caractères de la position 2 à la position 5 (non inclus)
-
+print(hello_world[2:5:2]) # Obtenez les caractères de la position 2 à la position 5 (non inclus)
 hello_world = "Hello, world!"
 print(hello_world[:5]) # Obtenez les personnages du début jusqu'à la position 5 (non incluse)
 
@@ -38,7 +39,7 @@ print(hello_world[2:]) # Obtenez les caractères à partir de la position 2, et 
 
 # Majuscules: la méthode upper() renvoie la chaîne en majuscules
 hello_world = "Hello, world!"
-print(hello_world.upper())
+print(hello_world.upper()) #
 
 # Minuscules: La méthode lower() renvoie la chaîne en minuscules
 hello_world = "Hello, world!"
@@ -58,7 +59,7 @@ print(hello_world.replace("H", "G"))
 # Fractionner une chaîne de caractères: La méthode split() renvoie une liste 
 # dans laquelle le texte entre le séparateur spécifié devient les éléments 
 # de la liste
-hello_world = "Hello, world!"
+hello_world = "Hello, world!, hfhghg"
 print(hello_world.split(","))
 
 
@@ -70,5 +71,5 @@ print(hello_world.split(","))
 
 firstname = "Abdel"
 lastname = "Jordan"
-name = firstname + " " + lastname
+name = firstname + " " + lastname # AbdelJordan
 print(name)

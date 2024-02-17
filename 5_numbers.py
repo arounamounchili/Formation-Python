@@ -12,7 +12,7 @@ x = -24
 # float => positive or negative, containing one or more decimals
 y = 23.5
 y = -34.643
-y = 12E2    # e ou E indique la puissance de 10
+y = 12E0    # e ou E indique la puissance de 10
 
 # complex => on utilise j comme partie imaginaire
 z = 4 + 1j
@@ -33,10 +33,10 @@ y = 4.5 # float
 z = 3j  # complexe
 
 #conversion de int en float :
-a = float(x)
+a = float(x)    # 10.0
 
 #conversion de float à int :
-b = int(y)
+b = int(y) # b = 4
 
 #conversion de int en complexe :
 c = complex(x)

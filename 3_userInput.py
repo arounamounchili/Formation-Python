@@ -7,5 +7,6 @@
 # uses the input() method
 # L'exemple suivant demande le nom d'utilisateur, et lorsque vous l'avez saisi, 
 # il s'affiche à l'écran
-username = input("Enter username: ")
-print("Username is: " + username)
+age = input(" votre age: ")
+age = int(age) + 1 # 35
+print(f"age is: {age}")
